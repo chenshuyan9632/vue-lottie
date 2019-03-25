@@ -27,8 +27,8 @@ export default {
   mounted() {
     const anim = lottie.loadAnimation({
       name: 'Anim',
-      animationData: this.options.animationData, // animationData: an Object with the exported animation data
       container: this.$refs.lavContainer, // container: the dom element on which to render the animation
+      animationData: this.options.animationData, // animationData: an Object with the exported animation data
       renderer: 'svg', // renderer: 'svg' / 'canvas' / 'html'
       loop: this.options.loop !== false, // loop: true / false / number
       autoplay: this.options.autoplay !== false,  // autoplay: true / false
