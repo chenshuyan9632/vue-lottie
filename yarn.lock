@@ -4754,6 +4754,11 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-web@^5.1.9:
+  version "5.4.4"
+  resolved "http://registry.cnpm.seeyouyima.com/lottie-web/download/lottie-web-5.4.4.tgz#722ab69d5fcd4a28fa78c36999544b77701bc791"
+  integrity sha1-ciq2nV/NSij6eMNpmVRLd3Abx5E=
+
 lower-case@^1.1.1:
   version "1.1.4"
   resolved "http://registry.cnpm.seeyouyima.com/lower-case/download/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
@@ -7661,6 +7666,13 @@ vue-loader@^15.6.4:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-lottie@^0.2.1:
+  version "0.2.1"
+  resolved "http://registry.cnpm.seeyouyima.com/vue-lottie/download/vue-lottie-0.2.1.tgz#f9f62c34a276e6834255406118fb05b51f765e4b"
+  integrity sha1-+fYsNKJ25oNCVUBhGPsFtR92Xks=
+  dependencies:
+    lottie-web "^5.1.9"
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
